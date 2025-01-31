@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-website</title>
+   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons/css/line.css" rel="stylesheet">
+
+</head>
+<!-- ScrollReveal.js CDN -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal" defer></script>
+
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">LOGO</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu_list">
+                <li class="nav-list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav-list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#project" class="nav-link">Project</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+
+                </div>
+            </div>
+            <div class="nav-menu-btn"> 
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="home"> 
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,am</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedtext"></span>
+
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Shagun! I am a web developer </p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <a href="https://in.docworkspace.com/d/sILejt8yjApT87LwG?sa=601.1123" class="btn" download>
+                            Download CV <i class="uil uil-cv"></i>
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/shagun.n_01?igsh=d3lxdnF3bjRpbnA3">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                               
+                           
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/shagun-aggarwal-184529283">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            
+                        </div>
+                        <div class="icon">
+                            <a href="">
+                                <i class="uil uil-behance-alt"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/shagunagg12">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/profile.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="images/profile.jpg"alt="" class="profile"/>
+                                    <h2>Web developer</h2>
+                                    <p>Hi, I'm Shagun, a passionate software developer currently pursuing my second year in Computer Science Engineering. I specialize in full-stack web development, with hands-on experience in HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
+
+                                        I enjoy building practical, user-friendly applications to enhance my skills in real-world problem-solving. My approach to development is practical and efficiency-driven, focusing on creating scalable and maintainable solutions.
+                                        
+                                        I'm always eager to learn new technologies and collaborate on innovative projects. Let's connect and build something amazing together! </p>
+                                
+                            </figure>
+                            <button class="about-me-btn">Let's connect</button>
+                            
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-html5"></i>
+                                HTML
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per html" style="width: 90%">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                CSS
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per css" style="width: 70%">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-js"></i>
+                                JavaScript
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript" style="width: 80%">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-python"></i>
+                                Python
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per python" style="width: 60%">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-node-js"></i>
+                                Node.js
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per nodejs" style="width: 80%">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-brands fa-node-js"></i>
+                                Express.js
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per express" style="width: 60%">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">
+                                <i class="fa-solid fa-database"></i>
+                                MongoDB
+                            </span>
+                            <div class="skill-bar">
+                                <span class="skill-per mongodb" style="width: 70%">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <a href="https://github.com/shagunagg12/Image-gallery.git">
+                            <i class="uil uil-briefcase-alt"></i>
+                        <h3>Image-gallery</h3>
+                        <label></label>
+                        </a>
+                       
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/shagunagg12/Ai-assistant-.git">
+                            <i class="uil uil-briefcase-alt"></i>
+                        <h3>virtual Ai-assistant-</h3>
+                        <label></label>
+                        </a>
+                        
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/shagunagg12/basic-calculator.git">
+                            <i class="uil uil-award"></i>
+                        <h3> Basic-calculator</h3>
+                        <label></label>
+
+                        </a>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's work together</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h3>Get in Touch</h3>
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>shagunaggarwal871@gmail.com</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8826164654</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>India</p>
+                            </div>
+                            <div class="info-item">
+                                <a href="https://www.linkedin.com/in/shagun-aggarwal-184529283">
+                                    <p>LinkedIn Profile</p>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    
+                                </a>
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="your Name" required>
+                                <input type="email" class="input-field" placeholder="your Email" required>
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject" required>
+                                <textarea placeholder="Message" required></textarea>
+    
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon">
+                    <a href="https://www.instagram.com/shagun.n_01?igsh=d3lxdnF3bjRpbnA3">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                       
+                   
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/shagun-aggarwal-184529283">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    
+                </div>
+                <div class="icon">
+                    <a href="">
+                        <i class="uil uil-behance-alt"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/shagunagg12">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    
+                </div>
+
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration:none ;">Shagun</a>All rights reserved 2025</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
